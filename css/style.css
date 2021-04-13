@@ -412,7 +412,47 @@ address {
 .footer-social {
   margin-top: 20px;
 }
+.footer-container-subscribe {
+  --grid-item: 4;
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.footer-subscribe-title {
+  font-weight: 700;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--dark-bg-text-color);
+}
+.subscribe-form {
+  display: inline-flex;
+}
+.label-email {
+  width: 350px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.footer-button-subscribe {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  color: var(--dark-bg-text-color);
+  width: 200px;
+  height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 
+/* Portfolio */
 .projects {
   --grid-item: 3;
   font-size: 16px;
