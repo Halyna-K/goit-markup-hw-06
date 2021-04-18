@@ -575,10 +575,11 @@
                 <input
                   class="subscribe-form-email"
                   type="email"
-                  name="user_email"
+                  name="email"
+                  id="user_email"
                   placeholder="E-mail"
                 />
-                <label class="footer-button-submit">
+                <label for="user_email" class="footer-button-submit">
                   <button class="footer-button-text button" type="submit">
                     Подписаться
                   </button>
@@ -612,11 +613,12 @@
               <input
                 class="modal-form-input"
                 type="text"
-                name="user_name"
+                name="name"
+                id="user_name"
                 pattern="[A-Za-zА-Яа-яЁё\s]+$"
               />
             </div>
-            <label class="modal-form-label">Имя</label>
+            <label for="user_name" class="modal-form-label">Имя</label>
           </div>
           <div class="modal-field">
             <div class="modal-form-field">
@@ -626,11 +628,12 @@
               <input
                 class="modal-form-input"
                 type="tel"
-                name="user_phone"
+                name="phone"
+                id="user_phone"
                 pattern="[0-9]{5,10}"
               />
             </div>
-            <label class="modal-form-label">Телефон</label>
+            <label for="user_phone" class="modal-form-label">Телефон</label>
           </div>
           <div class="modal-field">
             <div class="modal-form-field">
@@ -640,30 +643,35 @@
               <input
                 class="modal-form-input"
                 type="email"
-                name="user_email"
+                name="email"
+                id="user_email"
                 pattern=""
               />
             </div>
-            <label class="modal-form-label">Почта</label>
+            <label for="user_email" class="modal-form-label">Почта</label>
           </div>
           <div class="modal-field">
             <div class="modal-form-field">
               <textarea
                 class="modal-form-input modal-form-comments"
-                name="user_comments"
+                name="comments"
+                id="user_comments"
                 cols="30"
                 rows="8"
                 placeholder="Введите текст"
               ></textarea>
             </div>
-            <label class="modal-form-label">Комментарий</label>
+            <label for="user_comments" class="modal-form-label"
+              >Комментарий</label
+            >
           </div>
           <div class="modal-agreement">
-            <label class="modal-check-label">
+            <label id="user_agreement" class="modal-check-label">
               <input
                 class="modal-check-input"
                 type="checkbox"
                 name="agreement"
+                id="user_agreement"
                 value="Соглашаюсь с рассылкой и принимаю Условия договора"
               />
               Соглашаюсь с рассылкой и принимаю
